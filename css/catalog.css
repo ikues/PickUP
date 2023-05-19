@@ -1,0 +1,101 @@
+.backsec {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+
+.catalog {
+    color: #000000;
+    position: relative;
+    padding: 10px 500px;
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    align-items: center;
+    padding: 0 0 0 400px;
+    background: #ffffff;
+}
+
+.product-item {
+    width: 200px;
+    height: 240px;
+    text-align: center;
+    float:left;
+    margin: 10px 15px 15px 0;
+    padding: 10px;
+    border-bottom: 2px solid #2c2c2c;
+    border-top: 2px solid #2c2c2c;
+    border-radius: 25px;
+    transition: .5s ease-in-out;
+}
+
+.product-item:hover {
+    height: 350px;
+}
+
+.product-item img {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 13px;
+    z-index: 1;
+}
+.product-list {
+    position: relative;
+    height: 50px;
+    bottom: 200px;
+    width: 100%;
+    margin: 10px 0;
+    background: white;
+    border-radius: 10px;
+    transition: 2s;
+    opacity: 0;
+}
+
+.product-item:hover > .product-list {
+    bottom: 35px;
+    opacity: 1;
+}
+
+.car h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.info {
+    font-size: 12px;
+    display: block;
+    color: #444444;
+    margin: 10px 10px;
+    padding: 10px 0;
+}
+.price {
+    position: relative;
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin: 12px;
+    bottom: 10px;
+}
+
+.button {
+    position: relative;
+    bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background: #cccccc;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+}
+.button:hover {
+    background: #fc5a5a;
+}

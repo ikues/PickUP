@@ -1,0 +1,36 @@
+.navigator {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 20px 0;
+    padding: 0 20px 0 400px;
+}
+
+.img_auto {
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.navigator a {
+    color: #585858;
+    display: inline;
+    margin-right: 5px;
+    text-decoration: none;
+    border: 2px solid #0a0a0a;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navigator a:hover {
+    border-radius: 10px;
+    background: #bababa;
+    color: #ffffff;
+}
